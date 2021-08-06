@@ -73,7 +73,7 @@ Instead of storing K (65536) pair scores, we save their statistical mean and var
 You can refer to the original paper for the details.
 
 - Visualization code is [line 69-74](https://github.com/DTennant/CL-Visualizing-Feature-Transformation/blob/f2b1471e6f17278260a9e8bdaddbd504556fb13b/memory/mem_moco.py#L69) to store the scores.
-And then we further process the scores in the [IpythonNotebook](/Visualization Tools.ipynb) for drawing.
+And then we further process the scores in the [IpythonNotebook](https://github.com/DTennant/CL-Visualizing-Feature-Transformation/blob/e1658ceda39f657c1b0f608ef6ef124b404e451b/Visualization%20Tools.ipynb) for drawing.
 
 ## Citations
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follow.
