@@ -72,8 +72,8 @@ Please refer to [DenseCL](https://github.com/WXinlong/DenseCL) and [MoCo](https:
 Instead of storing K (65536) pair scores, we save their statistical mean and variance to represent the scores’ distribution. 
 You can refer to the original paper for the details.
 
-- Visualization code is [line 69-74](memory/memory_moco.py) to store the scores.
-And then we further process the scores in the [IpythonNotebook]() for drawing.
+- Visualization code is [line 69-74](https://github.com/DTennant/CL-Visualizing-Feature-Transformation/blob/f2b1471e6f17278260a9e8bdaddbd504556fb13b/memory/mem_moco.py#L69) to store the scores.
+And then we further process the scores in the [IpythonNotebook](Visualization Tools.ipynb) for drawing.
 
 ## Citations
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follow.
