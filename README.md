@@ -41,6 +41,8 @@ MoCo-v1+FT | ImageNet-1K | ResNet-50 | 200 | 61.9 | 82.0 | 39.0 | [download](htt
 MoCo-v2 | ImageNet-1K | ResNet-50 | 200 | 67.5 | 82.4 | 39.0 | [download](https://dl.fbaipublicfiles.com/moco/moco_checkpoints/moco_v2_200ep/moco_v2_200ep_pretrain.pth.tar)
 MoCo-v2+FT | ImageNet-1K | ResNet-50 | 200 | 69.6 | 83.3 | 39.5 | [download](https://cuhko365-my.sharepoint.com/:u:/g/personal/219019048_link_cuhk_edu_cn/EWmxeCue5hhFmGZG-qaJgDABJoQiHtppl7CyZyqXPngNDA?e=5IgLoV)
 MoCo-v1+FT | ImageNet-100 | ResNet-50 | 200 | IN-100 result 77.2 | - | - | [download](https://cuhko365-my.sharepoint.com/:u:/g/personal/219019048_link_cuhk_edu_cn/EbuNGnkSjGdOmCceRd-3qfwBK3pnKzpr2qS1BEblQo0rUg?e=eFF70L)
+
+
 **Note:** 
 - See our paper for more results on different benchmarks.
 
