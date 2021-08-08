@@ -7,6 +7,12 @@ This project hosts the codes, models and visualization tools for the paper:
 > Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021, **Oral**  
 > *arXiv preprint ([arXiv 2108.xxxxx](x))*   
 
+@inproceedings{zhu2021Improving,
+  title={Improving Contrastive Learning by Visualizing Feature Transformation},
+  author={Zhu, Rui and Zhao, Bingchen and Liu, Jingen and Sun, Zhenglong and Chen, Chang Wen},
+  booktitle =  {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year={2021}
+}
 
 ![highlights2](highlight1.png)
 
