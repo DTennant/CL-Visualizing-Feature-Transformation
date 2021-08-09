@@ -2,10 +2,10 @@
 
 This project hosts the codes, models and visualization tools for the paper: 
 
-> [**Improving Contrastive Learning by Visualizing Feature Transformation**](xxxx),  
+> [**Improving Contrastive Learning by Visualizing Feature Transformation**](https://arxiv.org/abs/2108.02982),  
 > Rui Zhu*, Bingchen Zhao*, Jingen Liu, Zhenglong Sun, Chang Wen Chen  
 > Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021, **Oral**  
-> *arXiv preprint ([arXiv 2108.xxxxx](x))*   
+> *arXiv preprint ([arXiv 2108.02982](https://arxiv.org/abs/2108.02982))*   
 
 ```
 @inproceedings{zhu2021Improving,
