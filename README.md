@@ -8,7 +8,7 @@ This project hosts the codes, models and visualization tools for the paper:
 > *arXiv preprint ([arXiv 2108.02982](https://arxiv.org/abs/2108.02982))*   
 
 ```
-@inproceedings{zhu2021Improving,
+@inproceedings{zhu2021improving,
   title={Improving Contrastive Learning by Visualizing Feature Transformation},
   author={Zhu, Rui and Zhao, Bingchen and Liu, Jingen and Sun, Zhenglong and Chen, Chang Wen},
   booktitle =  {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
@@ -86,7 +86,7 @@ And then we further process the scores in the [IpythonNotebook](https://github.c
 ## Citations
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follow.
 ```
-@inproceedings{zhu2021Improving,
+@inproceedings{zhu2021improving,
   title={Improving Contrastive Learning by Visualizing Feature Transformation},
   author={Zhu, Rui and Zhao, Bingchen and Liu, Jingen and Sun, Zhenglong and Chen, Chang Wen},
   booktitle =  {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
