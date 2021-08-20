@@ -60,16 +60,16 @@ MoCo-v1+FT | ImageNet-100 | ResNet-50 | 200 | IN-100 result 77.2 | - | - | [down
 ## Usage
 
 ### Training on IN-1K
-    python main_contrast.py --method MoCov2 --data_folder your/path/to/imagenet-1K/dataset  --dataset imagenet  --epochs 200 --input_res 224 --cosine --batch_size 256 --learning_rate 0.03   --mixnorm --mixnorm_target posneg --sep_alpha --pos_alpha 2.0 --neg_alpha 1.6 --mask_distribution beta --expolation_mask --alpha 0.999 --multiprocessing-distributed --world-size 1 --rank 0 --save_score
+    python main_contrast.py --method MoCov2 --data_folder your/path/to/imagenet-1K/dataset  --dataset imagenet  --epochs 200 --input_res 224 --cosine --batch_size 256 --learning_rate 0.03   --mixnorm --mixnorm_target posneg --sep_alpha --pos_alpha 2.0 --neg_alpha 1.6 --mask_distribution beta --expolation_mask --alpha 0.999 --multiprocessing-distributed --world-size 1 --rank 0 --save_score --num_workers 8
 
 ### Linear Evaluation on IN-1K
-    python main_linear.py --method MoCov2 --data_folder your/path/to/imagenet-1K/dataset --ckpt your/path/to/pretrain_model   --n_class 1000 --multiprocessing-distributed --world-size 1 --rank 0 --epochs 100 --lr_decay_epochs 60,80
+    python main_linear.py --method MoCov2 --data_folder your/path/to/imagenet-1K/dataset --ckpt your/path/to/pretrain_model   --n_class 1000 --multiprocessing-distributed --world-size 1 --rank 0 --epochs 100 --lr_decay_epochs 60,80  --num_workers 8
 
 ### Training on IN-100
-    python main_contrast.py --method MoCov2 --data_folder your/path/to/imagenet-1K/dataset  --dataset imagenet100  --imagenet100path your/path/to/imagenet100.class  --epochs 200 --input_res 224 --cosine --batch_size 256 --learning_rate 0.03   --mixnorm --mixnorm_target posneg --sep_alpha --pos_alpha 2.0 --neg_alpha 1.6 --mask_distribution beta --expolation_mask --alpha 0.999 --multiprocessing-distributed --world-size 1 --rank 0 --save_score
+    python main_contrast.py --method MoCov2 --data_folder your/path/to/imagenet-1K/dataset  --dataset imagenet100  --imagenet100path your/path/to/imagenet100.class  --epochs 200 --input_res 224 --cosine --batch_size 256 --learning_rate 0.03   --mixnorm --mixnorm_target posneg --sep_alpha --pos_alpha 2.0 --neg_alpha 1.6 --mask_distribution beta --expolation_mask --alpha 0.999 --multiprocessing-distributed --world-size 1 --rank 0 --save_score  --num_workers 8
 
 ### Linear Evaluation on IN-100
-    python main_linear.py --method MoCov2 --data_folder your/path/to/imagenet-1K/dataset  --dataset imagenet100  --imagenet100path your/path/to/imagenet100.class  --n_class 100  --ckpt your/path/to/pretrain_model  --multiprocessing-distributed --world-size 1 --rank 0 
+    python main_linear.py --method MoCov2 --data_folder your/path/to/imagenet-1K/dataset  --dataset imagenet100  --imagenet100path your/path/to/imagenet100.class  --n_class 100  --ckpt your/path/to/pretrain_model  --multiprocessing-distributed --world-size 1 --rank 0  --num_workers 8
     
 ### Transferring to Object Detection
 Please refer to [DenseCL](https://github.com/WXinlong/DenseCL) and [MoCo](https://github.com/facebookresearch/moco) for transferring to object detection.
